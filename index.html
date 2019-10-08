@@ -49,7 +49,7 @@
     <div id="lead">
         <div id="lead-content">
             <h1>Nicholas George</h1>
-            <h2>Mechanical Engineer by day, <br> Software Engineer by night.</h2>
+            <h2 id="typed2">Mechanical Engineer by day, <br> Software Engineer by night.</h2>
             <a href="#" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
@@ -276,6 +276,20 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+  <script>
+    var typed2 = new Typed('#typed2', {
+      strings: ['explorers', 'forward thinkers', 'game changers'],
+      typeSpeed: 90,
+      startDelay: 500,
+      backSpeed: 50,
+      backDelay: 1000,
+      shuffle: false,
+      cursorChar: '',
+      smartBackspace: false,
+      loop: true
+    });
+  </script>
 </body>
 
 </html>
