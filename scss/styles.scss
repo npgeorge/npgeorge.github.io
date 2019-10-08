@@ -98,7 +98,7 @@ body {
 .no-js {
     #experience-timeline {
         > div {
-            background: $background;
+            background: rgb(0, 0, 0);
             padding: 10px;
             margin-bottom: 10px;
             border: 1px solid $border;
@@ -489,7 +489,7 @@ footer {
         right: auto;
         height: 100%;
         width: 3px;
-        background: $base-color;
+        background: rgb(0, 0, 0);
         z-index: 0;
     }
 
@@ -498,8 +498,8 @@ footer {
         content: '';
         width: 3px;
         height: 40px;
-        background: $base-color;
-        background: linear-gradient(to bottom, $base-color, rgba($base-color, 0));
+        background: rgb(0, 0, 0);
+        background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(rgb(0, 0, 0), 0));
         top: 100%;
         left: 303px;
     }
